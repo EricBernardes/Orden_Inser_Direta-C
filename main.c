@@ -1,22 +1,6 @@
 #include <stdio.h>
 #define tam 6
 
-// void ordenaInsDireta(int *v) {
-//   int aux;
-//   int j;
-//   for (int i = 1; 1 < (tam - 1); i++) {
-//     aux = v[i];
-//     j = --i;
-//     while (j >= 0 && aux < v[i]) {
-//       v[j + 1] = v[j];
-//       j--;
-//     }
-//     if (j != (i - 1)) {
-//       v[j + 1] = aux;
-//     }
-//   }
-// }
-
 void ordenaInsDireta(int *v) {
   int aux;
   int j;
